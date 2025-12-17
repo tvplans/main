@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Rank Math SEO Optimized Meta Tags -->
+    <title>TVPlans IPTV Sports - Watch Live Streams 2025 | NFL, NBA, EPL & PPV</title>
+    <meta name="description"
+        content="Stream all major sports leagues live on TVPlans IPTV. NFL, NBA, Premier League, UFC, Boxing & PPV. No blackouts, zero buffering.">
+    <meta name="keywords"
+        content="tvplans iptv sports, tvplans iptv, live sports streaming, watch NFL online, NBA streams, Premier League live, UFC PPV free, sports packages">
+    <meta name="theme-color" content="#141414">
+    <link rel="canonical" href="https://tvplansiptv.shop/sports.html">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tvplansiptv.shop/sports.html">
+    <meta property="og:title" content="TVPlans IPTV Sports - Watch Live Streams | NFL, NBA, EPL & PPV">
+    <meta property="og:description" content="Stream all major sports leagues live on TVPlans IPTV. No blackouts.">
+    <meta property="og:image" content="assets/sport.webp">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+    <!-- Internal CSS -->
+    <style>
+        :root {
+            --primary: #E50914;
+            --primary-dark: #b81d24;
+            --bg-body: #000000;
+            --bg-surface: #141414;
+            --bg-surface-2: #181818;
+            --text-main: #ffffff;
+            --text-muted: #b3b3b3;
+            --border: #333333;
+            --container-width: 1200px;
+            --header-height: 70px;
+            --radius-md: 8px;
+            --radius-lg: 16px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .container {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .text-primary {
+            color: var(--primary);
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        /* Header */
+        .site-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: var(--header-height);
+            background: rgba(20, 20, 20, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            padding: 0.5rem 1.25rem;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+        }
+
+        /* Hero */
+        .page-hero {
+            padding-top: calc(var(--header-height) + 4rem);
+            padding-bottom: 4rem;
+            background: radial-gradient(circle at top center, #0a1a0f 0%, #000000 70%);
+            /* Slight green tint for sports */
+            text-align: center;
+        }
+
+        .page-hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .page-hero p {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+
+        /* Content */
+        .content-section {
+            padding: 4rem 0;
+        }
+
+        .split-row {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            align-items: center;
+            margin-bottom: 4rem;
+        }
+
+        .split-image {
+            position: relative;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+
+        .split-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.5s;
+        }
+
+        .split-image:hover img {
+            transform: scale(1.03);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            background: var(--bg-surface-2);
+            padding: 2rem;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border);
+        }
+
+        .feature-card h3 {
+            margin-bottom: 0.5rem;
+            color: white;
+        }
+
+        .feature-card p {
+            color: var(--text-muted);
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.5, 0, 0, 1);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 4rem 0;
+            margin-top: 4rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        @media (min-width: 900px) {
+            .split-row {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .page-hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 6L10 2M16 6L22 2" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <rect x="3" y="6" width="26" height="22" rx="5" stroke="currentColor" stroke-width="2.5"
+                        fill="none" />
+                    <path d="M11 14H21M16 14V22" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+                </svg>
+                TVPlans IPTV
+            </a>
+            <a href="index.html#pricing" class="btn-primary">Start Free Trial</a>
+        </div>
+    </header>
+
+    <section class="page-hero reveal">
+        <div class="container">
+            <h1>Front Row Seats to <span class="text-primary">Live Sports</span></h1>
+            <p>Never miss a game again. Stream NFL, NBA, EPL, F1, and UFC events live in 60fps 4K. No blackouts, just
+                action.</p>
+            <a href="index.html#pricing" class="btn-primary"
+                style="padding: 1rem 2rem; font-size: 1.1rem; border-radius: 50px;">Get Sports Access</a>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+
+            <!-- Featured Image -->
+            <div class="split-row reveal">
+                <div class="split-image">
+                    <img src="assets/sport.webp" alt="Live Sports Streaming Collage" loading="eager">
+                </div>
+                <div class="split-content">
+                    <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">The Ultimate Sports Package</h2>
+                    <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
+                        Follow your favorite teams across the globe. From European football weekends to Sunday night
+                        American football, we cover every goal, touchdown, and knockout.
+                    </p>
+                    <ul style="color: var(--text-muted); display: flex; flex-direction: column; gap: 0.5rem;">
+                        <li>🏆 <strong>All Major Leagues:</strong> EPL, La Liga, Serie A, NFL, NBA, MLB.</li>
+                        <li>🏆 <strong>PPV Included:</strong> Watch UFC & Boxing main events at no extra cost.</li>
+                        <li>🏆 <strong>Zero Latency:</strong> Real-time streaming for live betting reliability.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Features -->
+            <div class="reveal">
+                <h2 class="text-center" style="margin-bottom: 2rem;">Why Sports Fans Choose Us</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>No Blackout Restrictions</h3>
+                        <p>Watch local games even if they are blocked in your area. Our global servers bypass regional
+                            restrictions instantly.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>High Frame Rate (60fps)</h3>
+                        <p>Sports require speed. Our streams offer 60 frames per second for fluid motion during
+                            fast-paced action.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Multi-View Capable</h3>
+                        <p>Depending on your app, watch multiple games at once. Perfect for Fantasy League tracking.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Leagues -->
+            <div class="reveal" style="margin-top: 4rem; text-align: center;">
+                <h2 style="margin-bottom: 1.5rem;">Leagues We Cover</h2>
+                <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+                    <span style="background: #222; padding: 0.5rem 1rem; border-radius: 4px; color: #fff;">NFL</span>
+                    <span style="background: #222; padding: 0.5rem 1rem; border-radius: 4px; color: #fff;">NBA</span>
+                    <span style="background: #222; padding: 0.5rem 1rem; border-radius: 4px; color: #fff;">Premier
+                        League</span>
+                    <span style="background: #222; padding: 0.5rem 1rem; border-radius: 4px; color: #fff;">Champions
+                        League</span>
+                    <span style="background: #222; padding: 0.5rem 1rem; border-radius: 4px; color: #fff;">UFC</span>
+                    <span style="background: #222; padding: 0.5rem 1rem; border-radius: 4px; color: #fff;">F1</span>
+                    <span style="background: #222; padding: 0.5rem 1rem; border-radius: 4px; color: #fff;">MLB</span>
+                    <span style="background: #222; padding: 0.5rem 1rem; border-radius: 4px; color: #fff;">NHL</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 TVPlans IPTV. All rights reserved.</p>
+            <p style="font-size: 0.9rem; margin-top: 1rem;">
+                <a href="index.html">Home</a> | <a href="movies.html">Movies</a> | <a
+                    href="index.html#pricing">Pricing</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add("active"); observer.unobserve(entry.target); } });
+            }, { threshold: 0.1 });
+            document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+        });
+    </script>
+
+</body>
+
+</html>
